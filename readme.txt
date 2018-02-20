@@ -6,3 +6,4 @@
 ->The dashboard page will be opened after login to the website
 ->There there are links that shift our pages to respective ones
 ->For each html file there is respective php pages
+->For each page there is form that connects to the database in xampp
