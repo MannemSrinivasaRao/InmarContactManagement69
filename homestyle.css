@@ -1,0 +1,30 @@
+body{
+background-image: url("inmar.jpg");
+background-size: 1370px 670px;
+background-repeat: no-repeat;
+}
+.navbar-brand{
+    font-size: 50px;
+}
+/*.btn1{
+	width: 50%;
+	height:10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn2{
+	width: 50%;
+	height:10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 125px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}*/

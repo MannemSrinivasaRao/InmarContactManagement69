@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="angular.js"></script>
+    <script>
+    	"use strict"
+       var app=angular.module("myapp",[]);
+        app.controller("control", function ($scope) {
+            //$scope.correct="";
+          /*  $scope.show= function (iscorrect) {
+                if(iscorrect)
+                {
+                   $scope.correct="Form Submited Succesfully";
+                }
+                else
+                {
+                    $scope.correct="Form Not Submited Succesfully";
+                }
+            }*/
+        });
+    </script>
+</head>
+<body>
+   <div ng-app="myapp" ng-controller="control">
+       <form name="myform" method="POST" action="regis.php" novalidate>
+        <div class="fn1">
+          <p>Sign-Up Page</p>
+        </div>
+           <div>
+               <label>First Name:*</label><input type="text" name="fname" ng-model="fname" ng-required="true"/><br>
+               <p ng-show="myform.fname.$invalid && !myform.fname.$pristine">First name is required</p>
+           </div>
+           <div>
+               <label>Last Name:*</label><input type="text" name="lname" ng-model="lname" ng-required="true" ng-minlength="4" ng-maxlength="8"/><br>
+               <p ng-show="myform.lname.$error.minlength">Last name is too short</p>
+               <p ng-show="myform.lname.$error.maxlength">Last name is too long</p>
+
+           </div>
+           <div>
+               <label>Email:*</label><input type="email" name="mail" ng-model="mail" ng-required="true" ng-pattern="/^[a-z]+[a-z0-9._]+@inmar\.com/"/><br>
+               <p ng-show="myform.mail.$invalid && !myform.mail.$pristine">Enter valid mail</p>
+           </div>
+           <div>
+               <label>Aadhar Number:*</label><input type="text" name="aadhar" ng-model="aadhar" ng-required="true" ng-minlength="12" maxlength="12"/><br>
+               <p ng-show="myform.aadhar.$error.minlength || myform.aadhar.$error.maxlength">Enter valid aadhar</p>
+           </div>
+           <div>
+               <label>Phone Number:*</label><input type="text" name="phoneno" ng-model="phoneno" ng-required="true" ng-minlength="10" maxlength="10"/><br>
+               <p ng-show="myform.phoneno.$error.minlength || myform.phoneno.$error.maxlength">Enter 10 digit number</p>
+           </div>
+           <div>
+               <label>Password:*</label><input type="password" name="passwd" id="passwd" ng-model="passwd" ng-required="true" ng-minlength="6" maxlength="15" ng-pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])/"/><br>
+               <!--<p ng-show="(uform.passwd.$error.minlength || uform.passwd.$error.maxlength) && (uform.passwd.$invalid)">Password must be strong and need minimum 6 characters</p>-->
+               <p ng-show="myform.passwd.$invalid && !myform.passwd.$pristine">Enter strong password</p>
+               <p ng-show="myform.passwd.$error.minlength">Minimum 6 chracters</p>
+               <!--<p ng-show="uform.passwd.$error.maxlength">Maximum 15 chracters</p>-->
+               <!--<p ng-show="uform.passwd.$error.pattern">password is not strong</p>-->
+           </div>
+           
+           <button class="btn1" ng-disabled="myform.$invalid" type="submit">Sign Up</button>
+       </form>
+   </div>
+</body>
+</html>

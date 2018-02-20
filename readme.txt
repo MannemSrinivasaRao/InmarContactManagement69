@@ -1,0 +1,8 @@
+->First go to home.html
+->New user needs to sign up by clicking on signup
+->Old user can login to the site at any time without any registration constarints
+->Later on after signup the page is redirected to login.html
+->The login validation codes are in logcheck.php, index.php, logout.php pages
+->The dashboard page will be opened after login to the website
+->There there are links that shift our pages to respective ones
+->For each html file there is respective php pages
