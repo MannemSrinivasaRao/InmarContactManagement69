@@ -62,7 +62,7 @@ What things you need to install the software
     
 __If you need to login to the application without signing up just to check the working of the application__
 
-_Login Page_
+_Login Page:_
 
 _User Email - ratnam@inmar.com_
 
