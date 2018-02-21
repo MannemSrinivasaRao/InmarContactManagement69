@@ -4,7 +4,7 @@ This web application is developed for the purpose of managing contacts and conta
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
 
 ### Prerequisites
 
@@ -52,12 +52,13 @@ What things you need to install the software
 	------------ | ------------- 
 	Name of contact1 | Email of contact1 | Phone no of contact1
 	Name of contact2 | Email of contact2 | Phone no of contact2
+
 	Group Name2 | Group Id2 
 	------------ | -------------
 	Name of contact1 | Email of contact1 | Phone no of contact1
 	Name of contact2 | Email of contact2 | Phone no of contact2
 
 * After performing necessary operations the person can logout from the web application by logout in the dash board page which will redirect the person to a login page
-   
+    
 
 
