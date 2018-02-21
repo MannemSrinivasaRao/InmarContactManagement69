@@ -18,7 +18,6 @@
 ->Create group will be redirected to creategroup.html and then creategrp.php
 ->The groupname and groupid will be stored in groups table with user email taken from cookie where groupid is primary key
 ->Delete group will delete the group from the groups table by taking the groupid
-->Edit contact pages and php files are used to edit the details of the contacts in the contacts table
 ->Add contact to group adds the details of a person given by user with his email to particular group the user wants to fit them in
 ->For this purpose the user gives groupid to add the contact to particular group
 ->When the user adds a contact to the group the NULL values of groupname and groupid will be replaced by the respective values in the groups table
