@@ -67,3 +67,7 @@ _Login Page:_
 _User Email - ratnam@inmar.com_
 
 _Password - Mani123@_
+
+## Authors
+
+* **Mannem Srinivasa Rao** 
