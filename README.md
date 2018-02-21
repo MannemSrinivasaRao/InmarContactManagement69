@@ -37,7 +37,7 @@ What things you need to install the software
 * After login to the application the dashboard page for the particular user who had login to the application appears in the browser
 * The home page consists of different buttons that direct you to different pages that can help you to manage contacts in the database of the respective user
 * No user can access or modify the contacts or groups of the other user
-* Any user can add, delete, edit or set active/inactive a contact and create, delete set active/inactive a group
+* Any user can add or delete a contact and create or delete a group
 * A user can add, delete his contacts to/from the groups created by him only
 * The contacts can be displayed in the form of table from the contacts table in inmar database i.e.,
 
