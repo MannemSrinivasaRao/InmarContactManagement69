@@ -48,12 +48,12 @@ What things you need to install the software
 
 * The groups of the user can be displayed from the contacts table in inmar database as
 
-	Group Name1 | Group Id1 |  
+	Group Name1 | Group Id1 | '\0'
 	------------ | ------------- | -------------
 	Name of contact1 | Email of contact1 | Phone no of contact1
 	Name of contact2 | Email of contact2 | Phone no of contact2
 
-	Group Name2 | Group Id2 | 
+	Group Name2 | Group Id2 | '\0'
 	------------ | ------------- | -------------
 	Name of contact1 | Email of contact1 | Phone no of contact1
 	Name of contact2 | Email of contact2 | Phone no of contact2
@@ -63,5 +63,7 @@ What things you need to install the software
 __If you need to login to the application without signing up just to check the working of the application__
 
 _Login Page_
+
 _User Email - ratnam@inmar.com_
+
 _Password - Mani123@_
