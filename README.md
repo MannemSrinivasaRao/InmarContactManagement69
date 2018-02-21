@@ -70,4 +70,7 @@ _Password - Mani123@_
 
 ## Authors
 
-* **Mannem Srinivasa Rao** 
+_**Mannem Srinivasa Rao**_
+
+**Email:** _mannemsrinivasarao43@gmail.com_
+**Contact:** _8008714209, 8919193443_
