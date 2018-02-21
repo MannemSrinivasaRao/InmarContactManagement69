@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="angular.js"></script>
+    <script>
+    	"use strict"
+       var app=angular.module("myapp",[]);
+        app.controller("control", function ($scope) {
+            //$scope.correct="";
+          /*  $scope.show= function (iscorrect) {
+                if(iscorrect)
+                {
+                   $scope.correct="Form Submited Succesfully";
+                }
+                else
+                {
+                    $scope.correct="Form Not Submited Succesfully";
+                }
+            }*/
+        });
+    </script>
+</head>
+<body>
+   <div ng-app="myapp" ng-controller="control">
+       <form name="myform" method="POST" action="addc.php" novalidate>
+        <div class="fn1">
+          <p>Active/Inactive Group</p>
+        </div>
+           <div>
+               <label>Group Id:*</label><input type="text" name="gid" ng-model="gid" ng-required="true" ng-minlength="4" maxlength="10"/><br>
+               <p ng-show="myform.gid.$error.minlength">Minimum 4 characters</p>
+           </div>
+           <button class="btn1" ng-disabled="myform.$invalid" type="submit">Set</button>
+       </form>
+   </div>
+</body>
+</html>
