@@ -68,9 +68,10 @@ _User Email - ratnam@inmar.com_
 
 _Password - Mani123@_
 
-## Authors
+## Author
 
 _**Mannem Srinivasa Rao**_
 
 **Email:** _mannemsrinivasarao43@gmail.com_
+
 **Contact:** _8008714209, 8919193443_
