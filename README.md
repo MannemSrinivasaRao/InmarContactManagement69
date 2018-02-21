@@ -60,5 +60,9 @@ What things you need to install the software
 
 * After performing necessary operations the person can logout from the web application by logout in the dash board page which will redirect the person to a login page
     
+__If you need to login to the application without signing up just to check the working of the application__
 
-
+*Login Page
+ User Email - ratnam@inmar.com
+Password - Mani123@
+*
