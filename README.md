@@ -1,6 +1,4 @@
-# InmarContactManagement69
- In my application I have used HTML, CSS, Angular JS, Bootstrap, Java Script for client side scripting and PHP  for server side scripting.
- I have used Xampp server for using the tables in the database to store or access the data
+# Inmar Contact Management System
  
  ## Getting Started
 
@@ -8,10 +6,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software
 
 ```
 ->Xampp Server
 ->Angluar.js file i.e., included in the uploads
 ```
+
+## Built With
+
+* HTML - The web page contents display
+* CSS - Styles
+* Bootstrap - Framework
+* Angular JS - Framework
+* PHP - Server side scripting
+
 
