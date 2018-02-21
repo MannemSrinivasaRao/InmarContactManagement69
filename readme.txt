@@ -40,3 +40,8 @@ DataBase Working:
 ->When new contacts are added the details of the contact are added to contacts table with groupname and groupid as NULL
 ->When the contact added to group then the groupid and user email are taken from cookies and fill the groupname and groupid of contacts table with details from groups table
 ->When the contact is deleted from group the groupname and groupid attributes of a particular row are set to NULL using the groupid and user email from cookies
+
+
+Mannem Srinivasa Rao
+Email: mannemsrinivasarao43@gmail.com
+Contact: 8008714209
